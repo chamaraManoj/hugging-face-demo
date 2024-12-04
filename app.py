@@ -10,6 +10,6 @@ def predict(prompt):
 
 with gr.Blocks() as demo:
     textbox = gr.Textbox(placeholder="Enter text", lines=4)
-    gr.interface(fn=predict, inputs=textbox, outputs="text")
+    gr.Interface(fn=predict, inputs=textbox, outputs="text")
 
 demo.launch()
