@@ -1,6 +1,6 @@
 ---
 title: Demo
-emoji: :star:
+emoji:star:
 colorFrom: purple
 colorTo: purple
 sdk: gradio
